@@ -3,7 +3,7 @@
 
   <title>Chunhui Zhang</title>
   
-  <meta name="author" content="Jon Barron">
+  <meta name="author" content="Chunhui Zhang">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
@@ -22,7 +22,7 @@
               <p style="text-align:center">
                 <name>Chunhui Zhang</name>
               </p>
-              <p>Hi, I am Chunhui Zhang (张春晖), a first year Ph.D. student with <a href="https://www.brandeis.edu/computer-science/">the Michtom School of Computer Science</a> at <a href="https://www.brandeis.edu/">Brandeis University</a>, advised by <a href="https://chuxuzhang.github.io/index.html">Prof. Chuxu Zhang</a>. I got the B.S. degree from <a href="http://english.neu.edu.cn/">Northeastern University</a>, Qinhuangdao, China, in 2021.
+              <p>Hi, I am Chunhui Zhang (张春晖), a first year Ph.D. student with <a href="https://www.brandeis.edu/computer-science/">the Michtom School of Computer Science</a> at <a href="https://www.brandeis.edu/">Brandeis University</a>, advised by <a href="https://chuxuzhang.github.io/index.html">Prof. Chuxu Zhang</a>. in 2021, I got my B.S. degree from <a href="http://english.neu.edu.cn/">Northeastern University</a>, Qinhuangdao, China.
               </p>
               <p>
                 <!--At Google I've worked on <a href="https://ai.googleblog.com/2020/12/portrait-light-enhancing-portrait.html">Portrait Light</a>, <a href="https://ai.googleblog.com/2014/04/lens-blur-in-new-google-camera-app.html">Lens Blur</a>, <a href="https://ai.googleblog.com/2014/10/hdr-low-light-and-high-dynamic-range.html">HDR+</a>, <a href="https://www.google.com/get/cardboard/jump/">Jump</a>, <a href="https://ai.googleblog.com/2017/10/portrait-mode-on-pixel-2-and-pixel-2-xl.html">Portrait Mode</a>, <a href="https://www.youtube.com/watch?v=JSnB06um5r4">Glass</a>, and <a href="https://www.matthewtancik.com/nerf">NeRF</a>. I did my PhD at <a href="http://www.eecs.berkeley.edu/">UC Berkeley</a>, where I was advised by <a href="http://www.cs.berkeley.edu/~malik/">Jitendra Malik</a> and funded by the <a href="http://www.nsfgrfp.org/">NSF GRFP</a>. I've received the <a href="https://www2.eecs.berkeley.edu/Students/Awards/15/">C.V. Ramamoorthy Distinguished Research Award</a> and the <a href="https://www.thecvf.com/?page_id=413#YRA">PAMI Young Researcher Award</a>.-->
@@ -59,53 +59,6 @@
 
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
-
-        <tr onmouseout="blocknerf_stop()" onmouseover="blocknerf_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='blocknerf_image'><video  width=100% height=100% muted autoplay loop>
-                <source src="images/blocknerf_after.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-                </video></div>
-                <img src='images/blocknerf_before.jpg' width="160">
-              </div>
-              <script type="text/javascript">
-                function blocknerf_start() {
-                  document.getElementById('blocknerf_image').style.opacity = "1";
-                }
-
-                function blocknerf_stop() {
-                  document.getElementById('blocknerf_image').style.opacity = "0";
-                }
-                blocknerf_stop()
-              </script>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-							<a href="https://waymo.com/research/block-nerf/">
-                <papertitle>Block-NeRF: Scalable Large Scene Neural View Synthesis</papertitle>
-              </a>
-              <br>
-              <a href="http://matthewtancik.com/">Matthew Tancik</a>,
-              <a href="http://casser.io/">Vincent Casser</a>,
-              <a href="https://sites.google.com/site/skywalkeryxc/">Xinchen Yan</a>,
-              <a href="https://scholar.google.com/citations?user=5mJUkI4AAAAJ&hl=en">Sabeek Pradhan</a>, <br>
-              <a href="https://bmild.github.io/">Ben Mildenhall</a>,
-							<a href="https://pratulsrinivasan.github.io/">Pratul Srinivasan</a>,
-              <strong>Jonathan T. Barron</strong>,
-              <a href="https://sites.google.com/corp/view/kretzschmar/">Henrik Kretzschmar</a>
-              <br>
-        <em>arXiv</em>, 2022
-              <br>
-              <a href="https://waymo.com/research/block-nerf/">project page</a>
-        /
-              <a href="https://arxiv.org/abs/2202.05263">arXiv</a>
-        /
-              <a href="https://www.youtube.com/watch?v=6lGMCAzBzOQ">video</a>
-              <p></p>
-              <p>We can do city-scale reconstruction by training multiple NeRFs with millions of images.</p>
-            </td>
-          </tr>
-
         <tr onmouseout="fdnas_stop()" onmouseover="fdnas_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
@@ -113,7 +66,7 @@
                 <source src="images/fdnas_after.mp4" type="video/mp4">
                 Your browser does not support the video tag.
                 </video></div>
-                <img src='images/fdnas_before.jpg' width="160">
+                <img src='images/fednas.png' width="160">
               </div>
               <script type="text/javascript">
                 function fdnas_start() {
@@ -127,37 +80,94 @@
               </script>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
-							<a href="https://waymo.com/research/block-nerf/">
-                <papertitle>Block-NeRF: Scalable Large Scene Neural View Synthesis</papertitle>
+							<a href="https://www.researchgate.net/publication/358814243_Towards_Tailored_Models_on_Private_AIoT_Devices_Federated_Direct_Neural_Architecture_Search">
+                <papertitle>Towards Tailored Models on Private AIoT Devices: Federated Direct Neural Architecture Search</papertitle>
               </a>
               <br>
-              <a href="http://matthewtancik.com/">Matthew Tancik</a>,
-              <a href="http://casser.io/">Vincent Casser</a>,
-              <a href="https://sites.google.com/site/skywalkeryxc/">Xinchen Yan</a>,
-              <a href="https://scholar.google.com/citations?user=5mJUkI4AAAAJ&hl=en">Sabeek Pradhan</a>, <br>
-              <a href="https://bmild.github.io/">Ben Mildenhall</a>,
-							<a href="https://pratulsrinivasan.github.io/">Pratul Srinivasan</a>,
-              <strong>Jonathan T. Barron</strong>,
-              <a href="https://sites.google.com/corp/view/kretzschmar/">Henrik Kretzschmar</a>
+              Chunhui Zhang, Xiaoming Yuan, Qianyun Zhang, Guangxu Zhu, Lei Cheng, and Ning Zhang
               <br>
-        <em>arXiv</em>, 2022
+        <em>IEEE Internet of Things Journal (IOTJ)</em>, Feb. 2022.
               <br>
-              <a href="https://waymo.com/research/block-nerf/">project page</a>
-        /
-              <a href="https://arxiv.org/abs/2202.05263">arXiv</a>
-        /
-              <a href="https://www.youtube.com/watch?v=6lGMCAzBzOQ">video</a>
+              <a href="">project page</a>
+              /
+              <a href="https://www.researchgate.net/publication/358814243_Towards_Tailored_Models_on_Private_AIoT_Devices_Federated_Direct_Neural_Architecture_Search">preprint</a>
               <p></p>
-              <p>We can do city-scale reconstruction by training multiple NeRFs with millions of images.</p>
             </td>
           </tr>
 
+        <tr onmouseout="adasearch_stop()" onmouseover="adasearch_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='adasearch_image'><video  width=100% height=100% muted autoplay loop>
+                <source src="images/adasearch_after.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video></div>
+                <img src='images/supernet2supernet.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function adasearch_start() {
+                  document.getElementById('adasearch_image').style.opacity = "1";
+                }
 
+                function adasearch_stop() {
+                  document.getElementById('adasearch_image').style.opacity = "0";
+                }
+                adasearch_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+							<a href="">
+                <papertitle>AdaSearch: Many-to-One Unified Neural Architecture Search via A Smooth Curriculum</papertitle>
+              </a>
+              <br>
+              Chunhui Zhang*, Yongyuan Liang*, and Yifan Jiang*
+              <br>
+        <em><a href="https://www.cmu.edu/epp/patents/events/aaai22/">AAAI-22 Workshop: Learning Network Architecture During Training</a></em>.
+              <br>
+              <a href="">project page</a>
+              /
+              <a href="">preprint</a>
+              <p></p>
+            </td>
+          </tr>
 
+        <tr onmouseout="segthor_stop()" onmouseover="segthor_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='segthor_image'><video  width=100% height=100% muted autoplay loop>
+                <source src="images/segthor_after.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video></div>
+                <img src='images/supernet2supernet.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function segthor_start() {
+                  document.getElementById('segthor_image').style.opacity = "1";
+                }
+
+                function segthor_stop() {
+                  document.getElementById('segthor_image').style.opacity = "0";
+                }
+                segthor_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+							<a href="">
+                <papertitle>3D Enhanced Multi-scale Network for Thoracic Organs Segmentation</papertitle>
+              </a>
+              <br>
+              Qin Wang, Weibing Zhao, Chunhui Zhang, Liyue Zhang, Changmiao Wang, Zhen Li, Shuguang Cui, Guanbin Li
+              <br>
+        <em><a href="http://ceur-ws.org/Vol-2349/">16th ISBI Workshop Proceedings: Segmentation of THoracic Organs at Risk in CT Images</a></em>.
+              <br>
+              <a href="http://ceur-ws.org/Vol-2349/SegTHOR2019_paper_8.pdf">preprint</a>
+              <p></p>
+            </td>
+          </tr>
 
         </tbody></table>
 
-				
+        <!--
         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
           <tr>
             <td>
@@ -194,6 +204,7 @@
 					
 					
         </tbody></table>
+        -->
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           <tr>
             <td style="padding:0px">
